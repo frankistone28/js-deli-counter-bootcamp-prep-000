@@ -29,7 +29,8 @@ function currentLine(katzDeliLine){
 
       for (var i = 0; i < katzDeliLine.length; i++) {
         //if (count === 1) {
-          array.push(count++ + "." + " " + katzDeliLine[i]);
+          array.push(`${count++}. ${katzDeliLine[i]}`);
+          //array.push(count++ + "." + " " + katzDeliLine[i]);
         // }
         // else {
         //   array.push(" " + count++ + "." + " " + katzDeliLine[i]);
